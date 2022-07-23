@@ -1,4 +1,4 @@
-package graph
+package presentation
 
 // This file will be automatically regenerated based on the schema, any resolver implementations
 // will be copied through when generating and any unknown code will be moved to the end.
@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/keinuma/stocker_api/graph/generated"
-	"github.com/keinuma/stocker_api/graph/model"
+	"github.com/keinuma/stocker_api/app/presentation/generated"
+	"github.com/keinuma/stocker_api/app/presentation/model"
 )
 
 // CreateTodo is the resolver for the createTodo field.
